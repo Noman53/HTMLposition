@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(97, 97, 250);
+}
+.noman{
+    height: 1000px;
+    width: 1000px;
+    background: teal;
+    margin: 0 auto;
+    position: relative;
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    background: tomato;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.child2{
+    height: 200px;
+    width: 200px;
+    background: tomato;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.child3{
+    height: 200px;
+    width: 200px;
+    background: tomato;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.child4{
+    height: 200px;
+    width: 200px;
+    background: tomato;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.child5{
+    height: 200px;
+    width: 200px;
+    background: rgb(217, 240, 8);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.child6{
+    height: 200px;
+    width: 200px;
+    background: rgb(217, 240, 8);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.child7{
+    height: 200px;
+    width: 200px;
+    background: rgb(217, 240, 8);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.child8{
+    height: 200px;
+    width: 200px;
+    background: rgb(217, 240, 8);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.child9{
+    height: 200px;
+    width: 200px;
+    background: rgb(5, 211, 50);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.child9C1{
+    height: 150px;
+    width: 150px;
+    background: rgb(127, 94, 246);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+}
+.child9C2{
+    height: 100px;
+    width: 100px;
+    background: rgb(50, 5, 211);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    border-radius: 20%;
+}
+.child9C2C1{
+    height: 70px;
+    width: 70px;
+    background: rgb(211, 5, 211);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    border-radius: 50%;
+}
+.child9C2C2{
+    height: 50px;
+    width: 50px;
+    background: rgb(255, 34, 108);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    border-radius: 50%;
+}
+.child9C2C2C1{
+    height: 30px;
+    width: 30px;
+    background: rgb(1, 1, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgb(255, 237, 237);
+    border-radius: 50%;
+}
+
